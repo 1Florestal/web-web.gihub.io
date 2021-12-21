@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    width: auto;
+
+}
+
+
+.marche{
+  background-image: url(valerio/R.jfif);
+  background-size: cover;
+  height: 740px;
+  position: fixed;
+  top: 55px;
+  width: 100%;
+}  
+.nav{
+    width: 100%;
+    font-size: 35px;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #847239;
+    height: 55px;
+    position: fixed;
+    top: -1px;
+    color: white;
+    opacity: 87%;
+    z-index: 4;
+}
+.po, .infos, .contact, .menu{
+    text-decoration: none;
+  }
+  .po{
+    color: white;
+  }
+  .infos, .contact, .menu{
+    padding: 26px;
+    margin: -9px;
+    float: right;
+    font-size: 20px;
+    color: white;
+  }
+.haut{
+  text-align: center;
+  color: #caad54;
+  margin-top: 55px;
+  padding-top: 161px;
+  padding: 107px;
+}
+.h{
+  font-size: 100px;
+  position: absolute;
+  top: 30px;
+}
+.a{
+  padding: 133px;
+  margin-left: 87px;
+}
+.image{
+  position: absolute;
+  top: 900px;
+  left: 0px;
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 10px;
+  padding-left: 39px;
+  height: 1900px;
+}
+.lit1{
+  background-image: url(valerio/lit....jpg);
+  width: 400px;
+  height: 370px;
+  background-repeat: no-repeat;
+  margin-left: 72px;
+  margin-top: 100px;
+}
+.lit2{
+  background-image: url(valerio/lit.jfif);
+    width: 400px;
+    height: 370px;
+    background-repeat: no-repeat;
+    margin-left: 605px;
+}
+.salle{
+  background-image: url(valerio/salle.jfif);
+  width: 400px;
+  height: 370px;
+  background-repeat: no-repeat;
+  margin-left: 68px;
+}
+.electronic{
+  background-image: url(valerio/blender.jfif);
+  width: 400px;
+  height: 370px;
+  background-repeat: no-repeat;
+  margin-left: 646px;
+  margin-top: 44px;
+}
+.lit1 p{
+  color: #df130b;
+  border: 2px solid #2a0703;
+  width: 150px;
+  height: 25px;
+  border-radius: 12px;
+  margin-left: 352px;
+  /* padding-top: 59px; */
+  font-size: 16px;
+  position: absolute;
+  top: 481px;
+}
+.trait{
+  background-color: black;
+    height: 1px;
+    margin-top: 9px;
+    width: 850px;
+}
+.trait p{
+  padding: 10px;
+}
+.lit2 p{
+  color: #703e1b;
+  border: 2px solid #2a0703;
+  width: 205px;
+  height: 25px;
+  border-radius: 12px;
+  margin-left: -129px;
+  /* padding-top: 59px; */
+  font-size: 16px;
+  position: absolute;
+  top: 864px;
+}
+.salle p{
+  color: #df130b;
+  border: 2px solid #2a0703;
+  width: 179px;
+  height: 25px;
+  border-radius: 12px;
+  margin-left: 183px;
+  /* padding-top: 59px; */
+  font-size: 16px;
+  position: absolute;
+  top: 1247px;
+  color: #2a2915;
+}
+.electronic p{
+  color: #df130b;
+    border: 2px solid #2a0703;
+    width: 147px;
+    height: 25px;
+    border-radius: 12px;
+    margin-left: -89px;
+    /* padding-top: 59px; */
+    font-size: 16px;
+    position: absolute;
+    top: 1657px;
+    color: #383f47;
+}
+.face{
+  color: black;
+  position: absolute;
+  top: 1847px;
+  left: 516px;
+  text-decoration: none;
+  border: 2px solid #1b3359;
+  border-radius: 14px;
+  font-size: 18px;
+  width: 77px;
+}
+.what{
+  color: black;
+  position: absolute;
+  top: 1847px;
+  left: 341px;
+  text-decoration: none;
+  border: 2px solid #1be10c;
+  border-radius: 14px;
+  font-size: 18px;
+  width: 87px;
+}
+.what a, .face a{
+text-decoration: none;
+}
+.du{
+  color: #547bab;
+    text-align: center;
+}
+.lorem{
+  text-align: center;
+    color: #621b05;
+}

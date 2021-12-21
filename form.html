@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="global">
+
+        <div class="tete">
+            <header>
+                <nav class="nav">
+                    <a href="#" class="po" title="On est là pour vous servir, ">V-C</a>
+                    <a href="#" class="contact" title="On vous attend">Contact</a>
+                    <a href="#" class="infos">Infos</a>
+                    <a href="index.html" class="menu">Accueil</a>
+                </nav>
+            </header>
+        </div>
+        <div class="place">
+            <div class="de">
+                <h1>
+                    Formulaire de commande
+                </h1>
+            </div>
+            <div class="valerio">
+                <img src="valerio/logo_valerio.png" alt="">
+            </div>
+            <form action="traitement.php" method="post">
+                <fieldset>
+                    <legend>Vos Coordonnées</legend>
+                    <p>
+                        <label for="Jean">Votre nom </label>
+                        <input type="text" name="Nom" id="Jean" maxlength="10" size="30" placeholder="Ex: ESIH">
+                        <br>
+                        <label for="libre">Votre prénom </label>
+                        <input type="text" name="Prenom" id="libre">
+                        <br>
+                        <label for="mail">Votre adresse</label>
+                        <input type="email" name="mail" id="mail">
+                        <br>
+                        <label for="tel">Votre téléphone</label>
+                        <input type="tel" name="telephone" id="tel">
+                        <br>
+                        <label for="quant">Quantité</label>
+                        <input type="number" name="chiffre" id="quant" required>
+                        <label for="pays">Dans quel pays habitez-vous?</label>
+                        <select name="pays" id="pays">
+                            <option value="Haiti">Haiti</option>
+                            <option value="Etats-Unis">Etats-Unis</option>
+                            <option value="Canada">Canada</option>
+                            <option value="France">France</option>
+                            <option value="Bresil">Bresil</option>
+                        </select>
+                        <label for="commande">Faites vos commandes</label>
+                        <textarea name="description" id="commande" cols="30" rows="10"></textarea>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Votre souhait</legend>
+                    <p>
+                        Faites un souhait à notre société
+                        <input type="radio" name="souhait" value="Bonheur" id="bonheur"> 
+                        <label for="bonheur">Bonheur</label>
+                        <input type="radio" name="souhait" value="Tolérance" id="Tolérance"> 
+                        <label for="Tolérance">Tolérance</label>
+                        <input type="radio" name="souhait" value="Tendresse" id="Tendresse"> 
+                        <label for="Tendresse">Tendresse</label>
+                    </p>
+                </fieldset>
+                <div class="bout"><input type="submit" value="Envoyer"></div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

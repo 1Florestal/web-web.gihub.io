@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.po{
+    text-decoration: none;
+    padding-top: 12px;
+    color: #c59436;
+    font-family: cursive;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-top: -5px;
+    height: 36px;
+}
+.nav{
+    width: 100%;
+    font-size: 35px;
+    padding-left: 30px;
+    font-weight: bold;
+    background-color: #1b3359;
+    height: 55px;
+    position: fixed;
+    top: -1px;
+    color: white;
+    z-index: 4;
+
+}
+
+
+
+}
+.contact, .infos, .menu{
+    text-decoration: none;
+}
+
+
+.contact, .infos, .menu{
+    float: right;
+    margin-right: 20px;
+}
+.contact, .infos, .menu{
+    border: 2px solid #d39b32;
+    font-size: 10px;
+    margin-right: 33px;
+    margin-top: 22px;
+    margin-left: -10px;
+    border-radius: 6px;
+    color: #cecccd;
+}
+
+
+
+}
+#info{
+    margin-top: 65px;
+    border: 2px solid white;
+    color: #145673;
+    font-family: Cambria;
+}
+#wew{
+    margin-top: 61px;
+    color: #d7a546;
+    font-family: cursive;
+    font-size: larger;
+    position: fixed;
+    left: 2px;
+    right: 2px;
+    z-index: 3;
+}
+.central{
+    background-image: url(valerio/logo_valerio.png);
+    background-repeat: no-repeat;
+    width: 724px;
+    height: 695px;
+    background-position: center;
+    margin-left: 100px;
+    position: fixed;
+}
+.bienvenu{
+    font-family: cursive;
+    margin: 31px;
+    font-size: 52px;
+    font-family: initial;
+    text-transform: uppercase;
+    padding-left: 70px;
+    color: #2265b0;
+}
+.sur{
+    padding-top: 0px;
+    padding-left: 181px;
+    font-size: 33px;
+    color: #9cc536;
+}
+.valerio{
+    padding-top: 49px;
+    font-size: 67px;
+    color: #9fc73d;
+    padding-left: 14px;
+}
+.bienvenu, .sur, .valerio{
+    position: relative;
+    top: 147px;
+    left: 321px;
+    margin-left: -163px;
+}
+.section{
+    position: absolute;
+    top: 1000px;
+    background-color: #1b3359;
+    height: 900px;
+    width: 920px;
+}
+/*-- .vavi{
+    text-align: center;
+}*/
+.va{
+    color: wheat;
+    font-size: 26px;
+    text-align: center;
+}
+.vi{
+    color: white;
+    font-size: 16px;
+    /* margin-left: 200px; */
+    margin-top: -20px;
+    text-align: center;  
+}
+.noaise{
+
+}
+.no{
+    color: #c59436;
+    margin-left: 117px;
+    padding-top: 66px;
+}
+.aise{
+    color: white;
+    margin-left: -140px;
+}
+.aside{
+    text-align: right;
+}
+.imag{
+    margin-right: 10px;
+}
+.footer{
+
+}
+.copi{
+    position: absolute;
+    top: 1850px;
+    color: beige;
+}
+.what{
+    color: white;
+    position: absolute;
+    top: 1849px;
+    left: 341px;
+    text-decoration: none;
+    border: 2px solid #1be10c;
+    border-radius: 14px;
+    font-size: 18px;
+}
+.face{
+    color: black;
+    position: absolute;
+    top: 1847px;
+    left: 441px;
+    text-decoration: none;
+    border: 2px solid #1b3359;
+    border-radius: 14px;
+    font-size: 18px;
+}
+.imag:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.66s ease-in-out;
+}
+.co{
+    text-align: center;
+    margin-top: 217px;
+    margin-left: -177px;
+    text-decoration: none;
+    
+}
+.coo{
+    
+    
+}
+.vi{
+    color: white;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.vii, .coo, .whatt, .facee, .twitt{
+    text-decoration: none;
+}
+.vii, .coo{
+    text-decoration: none;
+    border: 2px solid #c59436;
+    border-radius: 18px;
+    height: 100px;
+    width: 100px;
+    background-color: rgba(58, 65, 60, 0.575), 0.527);
+    
+}
+.perso{
+    margin-top: -84px;
+    margin-left: 564px;
+    padding-top: -21;
+    position: relative;
+    top: -72px;
+}
+.hh{
+    margin-top: 5px;
+    color: #cddc39;
+}
+.aut{
+    color: white;
+    font-family: cursive;
+}
+.pre{
+    color: #eb4b6d;
+}
